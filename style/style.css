@@ -1,0 +1,25 @@
+        * {
+            box-sizing: border-box;
+            font-family: link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet";
+            color: black;
+        }
+        
+        html,
+        body {
+            margin: 0em;
+            padding: 0em;
+        }
+        
+        .nav ul {
+            margin: 0em;
+        }
+        
+        nav li {
+            display: inline;
+        }
+        
+        .main-header {
+            background-image: url(/style/images/teslaa3.png);
+            background-size: cover;
+            padding-bottom: 0px;
+        }
