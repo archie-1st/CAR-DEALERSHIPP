@@ -1,95 +1,69 @@
-                * {
-                    box-sizing: border-box;
-                    font-family: link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet";
-                    color: black;
-                }
-                
-                html,
-                body {
-                    margin: 0em;
-                    padding: 0em;
-                }
-                
-                .nav ul {
-                    margin: 0em;
-                }
-                
-                .nav a {
-                    display: inline-block;
-                    padding: 0.2cm;
-                    text-decoration: none;
-                }
-                
-                .nav a:hover {
-                    background-color: rgba(0, 0, 0, 0.3);
-                }
-                
-                .nav li {
-                    display: inline;
-                    position: relative;
-                    left: 75%;
-                }
-                
-                h1 {
-                    color: white;
-                }
-                
-                .main-header {
-                    background-color: white;
-                    background-size: cover;
-                    padding-bottom: 0%;
-                }
-                
-                .Quote {
-                    text-align: center;
-                    margin: 0em;
-                    font-size: 2em;
-                    font-family: 'Lexend Tera', sans-serif;
-                    font-family: 'Piedra', cursive;
-                    color: rgb(88, 88, 88);
-                }
-                
-                .main-section {
-                    margin: 1em;
-                }
-                
-                .container {
-                    margin: 1em;
-                }
-                
-                .offer {
-                    font-size: 3em;
-                    position: relative;
-                    left: 10%;
-                    color: white;
-                }
-                
-                .offer2 {
-                    font-size: 8em;
-                    position: relative;
-                    left: 15%;
-                    color: white;
-                }
-                
-                .offer3 {
-                    font-size: 1.5em;
-                    position: relative;
-                    left: 35%;
-                    ;
-                }
-                
-                .offer-link {
-                    position: relative;
-                    left: 50%;
-                    display: block;
-                    margin: 0 auto;
-                    font-size: 5em;
-                }
-                
-                .main-section {
-                    background-image: url(/pictures/Tesla7.png);
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    padding: 0em;
-                    margin: 0em;
-                }
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+        * {
+            font-family: 'Raleway', sans-serif;
+            color: black;
+        }
+        
+        html,
+        body {
+            margin: 0em;
+            padding: 0em;
+        }
+        
+        .nav ul {
+            margin: 0em;
+        }
+        
+        .nav li {
+            display: inline;
+        }
+        
+        .nav a {
+            padding: 1em;
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .links a:hover {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        
+        .main-nav {
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: lighter;
+            border-bottom: 1px solid;
+        }
+        
+        .main-nav li {
+            margin: 0 1.5%;
+        }
+        
+        .main-header {
+            background-color: white;
+            background-size: cover;
+        }
+        
+        .Quote {
+            text-align: center;
+            margin: 0em;
+            font-size: 3em;
+            font-family: 'Metal Mania', cursive;
+        }
+        
+        .main-section {
+            margin: 1em;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 1.5em;
+        }
+        
+        .offer {
+            text-align: center;
+            font-size: 30px;
+            color: black;
+        }
